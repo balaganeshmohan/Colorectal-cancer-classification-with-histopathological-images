@@ -10,6 +10,13 @@ Example data:
 
 Pipeline of the project:
 
+![Screenshot](Pipeline_final.png)
+
+
+Result:
+![Screenshot](auc_patient.png)
+![Screenshot](cf_patient.png)
+![Screenshot](pr_patient.png)
 
 
 
