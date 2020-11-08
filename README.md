@@ -5,6 +5,11 @@ This project involves a novel way to train CNN's for the purposes of detecting m
 
 Example data:
 
+![Screenshot](data.png)
+
+
+Pipeline of the project:
+
 
 
 
