@@ -24,7 +24,7 @@ The training data was downloaded from [here](https://zenodo.org/record/3832231).
 ![Screenshot](pr_patient.png)
 
 ### Final predictions
-![Screenshot](cf_patient.png)
+![Screenshot](patient_final.png)
 
 All code can be seen in this [notebook](https://github.com/balaganeshmohan/Colorectal-cancer-classification-with-histopathological-images/blob/main/CancerClassification.ipynb) . 
 
