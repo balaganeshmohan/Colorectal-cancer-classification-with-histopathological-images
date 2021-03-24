@@ -7,7 +7,7 @@ This project involves a novel way to train CNN's for the purposes of detecting m
 
 ## Data
 
-The training data was downloaded from [here](https://zenodo.org/record/3832231). An example batch of training data at native resolution is shown below. 
+The training data was downloaded from [here](https://zenodo.org/record/3832231). An example batch of training data at native resolution is shown below. MSIH is the tumour positive class and nonMSIH is tumour negative class. 
 
 ![Screenshot](data.png)
 
