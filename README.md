@@ -25,9 +25,16 @@ There are 3 different models of different architecture and each architecture is 
 ![Screenshot](pr_patient.png)
 
 ### Final predictions
+The final predictions was done on 512x512 images. With a total 144 patients and each patient averaging 225 slides(images), a prediction was done on each slide and for the final predicted class the median of all the probabilities of the individual tiles are calculated.
+
 ![Screenshot](patient_final.png)
 
 All code can be seen in this [notebook](https://github.com/balaganeshmohan/Colorectal-cancer-classification-with-histopathological-images/blob/main/CancerClassification.ipynb) . 
+
+### Plotting the cooridnates of mutation
+It would be helpful to see if there are any spatial patterns in which the mutation occurs in this type of cancer by plotting the predicted class of the feature set.
+
+![Screenshot](msih_1.png) ![Screenshot](msih_2.png) 
 
 ## Acknowledgements 
 Professor Rachel Cavill - Maastricht University
