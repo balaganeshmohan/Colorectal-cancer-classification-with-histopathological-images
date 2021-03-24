@@ -13,6 +13,7 @@ The training data was downloaded from [here](https://zenodo.org/record/3832231).
 
 
 ## Training pipeline
+There are 3 different models of different architecture and each architecture is trained on different resolutions of cancer images and their are progressively fed from smaller model to the largest being the final predictive model. So in total we have 3 predictive models of which they are ensembled to produce the final results. 
 
 ![Screenshot](Pipeline_final.png)
 
