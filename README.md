@@ -34,7 +34,9 @@ All code can be seen in this [notebook](https://github.com/balaganeshmohan/Color
 ### Plotting the cooridnates of mutation
 It would be helpful to see if there are any spatial patterns in which the mutation occurs in this type of cancer by plotting the predicted class of the feature set.
 
-![Screenshot](msih_1.png) ![Screenshot](msih_2.png) 
+![Screenshot](msih_1.png)
+
+![Screenshot](msih_2.png) 
 
 ## Acknowledgements 
 Professor Rachel Cavill - Maastricht University
