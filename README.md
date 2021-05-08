@@ -9,34 +9,34 @@ This project involves a novel way to train CNN's for the purposes of detecting m
 
 The training data was downloaded from [here](https://zenodo.org/record/3832231). An example batch of training data at native resolution is shown below. MSIH is the tumour positive class and nonMSIH is tumour negative class. 
 
-![Screenshot](data.png)
+![Screenshot](Assets/data.png)
 
 
 ## Training pipeline
 There are 3 different models of different architecture and each architecture is trained on different resolutions of cancer images and their are progressively fed from smaller model to the largest being the final predictive model. So in total we have 3 predictive models of which they are ensembled to produce the final results. 
 
-![Screenshot](Pipeline_final.png)
+![Screenshot](Assets/Pipeline_final.png)
 
 ## Results of the final ensembled models
 ### Auc Score
-![Screenshot](auc_patient.png)
+![Screenshot](Assets/auc_patient.png)
 
 ### PR Curve
-![Screenshot](pr_patient.png)
+![Screenshot](Assets/pr_patient.png)
 
 ### Final predictions
 The final predictions was done on 512x512 images. With a total 144 patients and each patient averaging 225 slides(images), a prediction was done on each slide and for the final predicted class the median of all the probabilities of the individual tiles are calculated.
 
-![Screenshot](patient_final.png)
+![Screenshot](Assets/patient_final.png)
 
 All code can be seen in this [notebook](https://github.com/balaganeshmohan/Colorectal-cancer-classification-with-histopathological-images/blob/main/CancerClassification.ipynb) . 
 
 ### Plotting the cooridnates of mutation
 It would be helpful to see if there are any spatial patterns in which the mutation occurs in this type of cancer by plotting the predicted class of the feature set.
 I was not able to find any particular pattern from analyzing all the different patients in the test set. 
-![Screenshot](msih_1.PNG)
+![Screenshot](Assets/msih_1.PNG)
 
-![Screenshot](msih_2.PNG) 
+![Screenshot](Assets/msih_2.PNG) 
 
 ## Acknowledgements 
 Professor Rachel Cavill - Maastricht University
